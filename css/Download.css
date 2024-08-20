@@ -1,0 +1,651 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color:white;
+   position: fixed;
+   padding: 1.5rem;
+    width: 100%;
+    top: 0;
+  }
+  body{
+    background-color:white;
+  }
+  .main{
+    background-color: white;
+   
+  }
+
+  .menus{
+    float: right;
+    filter: invert(20);
+    margin-top: 0.5rem;
+    background-color:black;
+    box-shadow: 0 0 2px lightgray;
+    padding: 0.55rem;
+    border-radius: 0.7rem;
+    width: fit-content;
+  }
+ 
+  nav ul li a{
+    color:white; 
+    gap: 25px;
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    }
+    .logo{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        margin-top: 0.7rem;
+    }
+    #checkbtn{
+        font-size: 20px;
+        float: right;
+        margin-top: 2rem;
+        height: fit-content;
+        width: fit-content;
+        margin-right: 90px;
+        cursor: pointer;
+        display:none;
+        align-self:center;
+        color: white;
+    }
+   
+   
+   
+    #check{
+        display:none;
+    }
+
+
+    .menu-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 35px;
+        color: black;
+        cursor: pointer;
+        float: right;
+        background-color:white;
+        box-shadow: 0 0 2px lightgray;
+        padding: 0.4rem;
+        height: fit-content;
+        margin-top: 1rem;
+        border-radius: 0.7rem;
+        width: fit-content;
+    }
+    .main{
+        margin-top: 11rem;
+    }
+
+    .hero{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 35px;  
+        text-align: center;
+        line-height: 3rem;
+        font-weight: 530;
+    }
+
+    p{
+        text-align: center;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        line-height: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .p-btn{
+        margin-top: 0.3rem;
+        font-weight: 700;
+        font-family:"AkkuratMonoRegular",sans-serif;
+    }
+    .install{
+        margin-left: -1rem;
+        float: left;
+    }
+    button{
+        display: flex;
+         width: 90%;
+         margin: auto;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+         background-color: black;
+         padding: 0.5rem;
+         color: white;
+         border-radius: 0.4rem;
+         border: none;
+         margin-top: 2rem;
+        
+     }
+     .mobile-app-background{
+      background-color: #fcca44;
+      width: 100%;
+      height: 300px;
+   
+      margin-top: -20rem;
+      z-index: -1;
+     }
+     .mobile-img{
+      display: flex;
+      margin: auto;
+        padding-top: 3rem;
+     }
+     .mobile-app{
+         margin-top: 5rem;
+       
+     }
+
+     .box-keyframes{
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        color: white;
+        
+     }
+     .text{
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 0.5rem;
+        display: flex;
+        column-gap: 2rem;
+       width: 100%;
+        overflow-x: hidden;
+   
+     }
+     .key-hide{
+      z-index: -1;
+        
+     }
+     .box-keyframes{
+        background-color: #000; /* Black background */
+        padding: 20px;
+        position:absolute;
+        z-index: -1;
+        overflow: hidden;
+        width: 100%; /* Adjust width as needed */
+        height: 60px; /* Limit height to create a scrolling effect */ 
+    }
+    
+    
+    .text {
+        display: flex;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        gap: 3rem;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 1.5;
+        animation: scrollText 40s linear infinite;
+    }
+
+
+   
+      .text {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        position: absolute;
+        animation: scrollText 20s linear infinite;
+    } 
+    
+    @keyframes scrollText {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    .text p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+    }
+    
+    /* Adding more text to create a continuous scroll */
+    .text p:nth-child(1) {
+        color:white; /* Green for the first text */
+    }
+
+    .text p:nth-child(2), 
+    .text p:nth-child(3),
+    .text p:nth-child(4),
+    .text p:nth-child(5), 
+    .text p:nth-child(6),
+    .text p:nth-child(7), 
+    .text p:nth-child(8), 
+    .text p:nth-child(9) 
+    {
+        color: white; /* Green for the rest */
+    }
+    .everything{
+        background-color: #F5F5F5;
+        padding-top: 4rem;
+       
+    }
+      .every-header{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 35px;  
+        text-align: center;
+        line-height: 3rem;
+        font-weight: 530;
+        text-align: left;
+        width: 80%;
+        margin: auto;
+        
+    }
+    .card{
+        background-color: white;
+        padding: 2rem;
+        border-radius: 1rem;
+       
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+     
+    }
+
+    .container{
+        text-align: center;
+        padding: 2em;
+        margin: auto;
+   
+    } 
+    #card{
+        background-color:#9E92F4;
+       
+        padding-top: rem;
+        padding: 2rem;
+        border-radius: 1rem;  
+        text-align: center;
+    
+    }  
+    .card-head{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 23px;
+        margin-top: 1rem;
+        font-weight: 500;
+        padding-top: rem;
+      
+    }
+    .tag{
+        background-color:#4ceb9f ;
+        width: fit-content;
+        padding: 0.3rem;
+        float: right;
+        font-size: 12px;
+        margin-top: -2rem;
+        z-index: 1;
+        border-radius: 0.7rem;
+        
+    }
+    #tag1{
+        margin-top: -1.4rem;
+        margin-right: -1rem;
+    }  
+    .pera-web{
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  
+    }
+    .small{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 2;
+    }
+    #a{
+        text-decoration: none;
+    }
+    #big{
+     width: 100%;
+     margin-top: -12rem;
+   
+    /*  display: flex;
+     margin: auto;
+     align-items: center; */
+    }
+    #card-head{
+       font-weight: 600; 
+       font-size: 24px;
+       
+    }
+    #sml{
+        padding: 0.5rem;
+        font-weight: 900;
+    }
+    .container{
+       
+    }
+    .everything{
+        padding-bottom: 2rem;
+    }
+    .community-bckg{
+        background-color: black;
+        width: 100%;
+        padding: 2rem;
+        margin-top: 3rem;
+        
+    }
+    .community{
+        z-index: -1;
+        margin-top: rem;
+    }
+
+   
+
+    .cardi{
+        background-color: #9E92F4;
+        width: 90%;
+        margin: auto;
+     
+        margin-top: -6rem;
+    }
+    .community-header{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        margin-top: 1rem;
+    }
+    .pera-text{
+        font-size: 13px;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        margin-top: 1rem;
+    }
+    .roadmap-link a, .link{
+        text-decoration: none;
+        color: #fcca44;
+    }
+    .roadmap-link{
+        margin-top: 4rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        color: #fcca44;
+    }
+    .community-reviews{
+        background-color:white;
+        width: 90%;
+        margin: auto;
+        padding: 1rem;
+        margin-top: 5rem;
+        border-radius: 1rem;
+    }
+    .community-backgroud{
+    
+      background-color:white;
+    margin-top: 3rem;
+      padding: 3rem;
+     
+    }
+    .star-background{
+        background-color: #6557cf;
+        width: 9rem;
+        margin: auto;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        
+    }
+    .star{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap:0.3rem;
+    }
+    h2{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-weight: 600;
+        text-align: center;
+        font-size: 25px;  
+        margin-top: 3rem;
+    }
+    .scroll{
+        display: flex;
+        scroll-snap-align: start;
+        margin-top: 2rem;
+        scroll-snap-type: y mandatory;
+        overflow: scroll; 
+        gap: 1rem;
+       
+    }
+     .cards-scroll{
+        padding: 1rem;
+       
+        height: 2rem;
+        background-color:#F5F5F5;
+        max-width:300px;
+        height: 10rem;
+        flex: 0 0 100%;
+        scroll-snap-align:start; 
+        
+    
+    }
+    .boxtext{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        color: grey;
+        font-size: 13px;
+       
+        font-weight: 500;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .green{
+        background-color:white;
+        width: 90%;
+        margin: auto;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+
+    .nums{
+        font-size: 26px;
+    }
+     
+    h3{
+        margin-top: 2rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .tag #tag1{
+        padding-top: -8rem;
+    }
+
+    .p{
+        margin-top: 2rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    hr{
+        margin-top: 3rem;
+    }
+    .support-links, .supp{
+        text-decoration: none;
+        color: black;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+       margin-top: 1.5rem;
+    }
+    .support-link{
+     /* display: flex;
+     flex-direction: row; */
+     display: grid;
+     grid-template-columns: 2fr 2fr;
+     margin-top: 2rem;
+    
+    }
+  
+    .im{
+        filter: invert(23);
+        position: fixed;
+        color: black;
+        z-index: -1;
+        overflow-y: hidden;
+    }
+   .support-header{
+    font-family:"AkkuratMonoRegular",sans-serif;
+   }
+   .form-signup{
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 7rem;
+}
+
+.form input{
+    width: 100%;
+    margin-top: 1rem;
+}
+input{
+    padding: 1rem;
+    background-color: #292828;
+    border: none;
+    border-radius: 0.5rem;
+    font-family:"AkkuratMonoRegular",sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+input[type="button"],[value="Subscribe"]
+{
+    font-weight: 300;
+    font-size: 17px;
+    background-color:#21EBBA;
+    color: black;
+    font-family:"AkkuratMonoRegular",sans-serif;
+    font-weight: 500;
+ 
+}
+
+
+
+.h1{
+    font-family:"AkkuratMonoRegular",sans-serif;
+    color: white;
+    font-size: 25px;  
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.textss{
+    font-size: 13px;
+    font-weight: 530;
+    color: white;
+    font-family:"AkkuratMonoRegular",sans-serif;
+}
+.text-pop {
+    margin-top: 10px;
+    color: #21EBBA;
+    font-weight: bold;
+   
+    font-family:"AkkuratMonoRegular",sans-serif;
+    display: none; /* Initially hidden */
+}
+    
+    @media (max-width:900px){
+        .checkbtn{
+            display: block;
+           
+        }
+    ul{
+    
+        
+    /*  position:absolute;
+     width: 100%;
+     height: 100vh;
+     background:black;
+     
+     text-align: right;
+    
+     transition:  all 0.5s; */
+    }
+    
+    ul{
+        position:fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(46, 45, 45);
+        right:0;
+        left: -100%;
+        top: 0rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         text-align:start;
+         background-color:white;
+         font-family: 'Epilogue', sans-serif;
+         transition: all 0.5s ;
+      
+         
+        }
+    
+        .menu-items{
+            overflow: scroll;
+      scroll-snap-align: y mandatory;
+      scroll-snap-type: mandatory;
+            
+        }
+        .menu-items::-webkit-scrollbar{
+            display: none;
+        }
+    
+    .span{
+        margin-top: 3rem;
+        font-size: 12px;
+        color: grey;
+        font-weight: 700;
+        margin-left: 3rem;
+    }
+    
+    
+    nav ul li a{
+        display:block;
+        margin: 35px 0px;
+        line-height: 1px;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style:none;
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+    
+    li{
+        list-style: none;
+    }
+    
+    .btn{
+        width: 100%;
+        display: flex;
+    }
+    ul li a{
+        font-size:16px;
+        
+    }
+    
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+    }
+    
+
+    
+    
+   
